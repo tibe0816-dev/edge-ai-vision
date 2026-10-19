@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Secrets and local config
+.env
+*.key
+*.pem
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model weights and exports (large files — use Git LFS or external storage)
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+*.rknn
+weights/
+
+# Datasets and outputs
+data/
+datasets/
+runs/
+outputs/
+logs/
+*.mp4
+*.avi
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
